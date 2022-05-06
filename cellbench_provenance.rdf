@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://schema.org/"
+   xmlns:ns2="https://swissdatasciencecenter.github.io/renku-ontology#"
+   xmlns:ns3="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/4f00f3b90d5d4c73a4550943fae09a67">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-04-23T11:53:06+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/5c1922fe368940ea91c27f6721533621"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/a142ba5b51f2438aa41144534856a7f5"/>
+    <ns1:identifier>4f00f3b90d5d4c73a4550943fae09a67</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/994e899ef2c34a3fb6f846a5eb11477b"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/c3ff9a97ab8f4d30891e9def77917e13">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:38:01+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/d21b3289f2fa4e318db948ac65565d0e"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/fc09d05c04b94ff1a4802fcdb4f7c8bb"/>
+    <ns1:identifier>c3ff9a97ab8f4d30891e9def77917e13</ns1:identifier>
+    <ns1:keywords> omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/7258312ba77044a8b9733d76d9fd153f"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/45f56666e1ecef64d3cc87c05b703c3904a87adf/data/cellbench/data_info_cellbench.json">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>data/cellbench/data_info_cellbench.json</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/c72ef07a8d92435cb417e94352a0913c"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/49edadcacbe848f98fcfef2b7c0e8125"/>
+    <ns2:checksum>45f56666e1ecef64d3cc87c05b703c3904a87adf</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/5">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>log/generate_cellbench.Rout</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-5</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:createFolder>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <ns1:name>renku 0.14.2</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns3:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-23T11:52:45+00:00</ns3:endedAtTime>
+    <ns3:qualifiedAssociation rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/association"/>
+    <ns3:qualifiedUsage rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/usages/95a80b8cc9a74c069e32a5c94eab9e0a"/>
+    <ns3:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-23T11:52:45+00:00</ns3:startedAtTime>
+    <ns3:wasAssociatedWith rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns3:wasAssociatedWith rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/9f3168f9ef9f4364a472f63a17debd03"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/65c4c30792ce40e8b5e0f2c56a1564f0"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/62bccf1dc72f4264b01c1df11f1ccb2e"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/5142e28e29c34a6799ecadc143c05465"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/4eb11d532e0542b6bee29b003fcddb6c"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/2a324eaf0db0488599a994000fedc6a8"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/6d13e2e63d4d4facbee021362fdb505a"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/984f5d3c10384657a5765c761190159a"/>
+    <ns2:parameter rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/7a6be1cce073468bb3045ed90d7ef21b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/bbc6d80a833d4b0198af94088f5733c9">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-04-23T11:48:07+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:identifier>bbc6d80a833d4b0198af94088f5733c9</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/94a0598e16d648349abc3a5b71d84271"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/f71cdaab9d5a4f3fbe5fd53b10521323">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>src/cellbench.R</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/inputs/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/outputs/5">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>log/generate_cellbench.Rout</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-5</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:createFolder>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/8f68bfda0ab74ff6a99886f74f5f2102">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:14:44+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9bedcee833334a6696fa8d0c966f162a"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/b6be1765b8f1452ea8e54cce68708b36"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/e43b2bafa351414caa196a20ff1b6441"/>
+    <ns1:identifier>8f68bfda0ab74ff6a99886f74f5f2102</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/1dd05daa68da45ab8a807c2336ae0c98"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/b7014a85fd0a43cba41c587342dcd298">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-04-23T11:53:12+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/5c1922fe368940ea91c27f6721533621"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/a142ba5b51f2438aa41144534856a7f5"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9f677a0474044dd3878308a657912787"/>
+    <ns1:identifier>b7014a85fd0a43cba41c587342dcd298</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/4f00f3b90d5d4c73a4550943fae09a67"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7">
+    <rdf:type rdf:resource="http://schema.org/Action"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+    <ns1:dateCreated>2022-01-19T15:33:33+00:00</ns1:dateCreated>
+    <ns1:name>R-CMD-BATCH---no-re-d6e41</ns1:name>
+    <ns2:command>R CMD BATCH</ns2:command>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/1"/>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/2"/>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/3"/>
+    <ns2:hasInputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/inputs/4"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/53ded8bff5a446c18c7a12850d0e92d8"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/1eef96c0900c46c4be57a9ba5245a231"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/cc617bd27cd84e27a6daeb78b5ac4f6a"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/a2744461bbd94eb99ef7b7b1d84b734f"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/84eb67362bc745fea0af15c56127d5e8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/31499e716647449d8c6d25131aabef90">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/meta_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/cc617bd27cd84e27a6daeb78b5ac4f6a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/7a6be1cce073468bb3045ed90d7ef21b">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>"data/cellbench"</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/0c74133a0964420ca8f3af42037d9447">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/meta_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/cc617bd27cd84e27a6daeb78b5ac4f6a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/62bccf1dc72f4264b01c1df11f1ccb2e">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>log/generate_cellbench.Rout</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/249f22f231d74c2fbda60c8a51402bdd">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-restore</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns3:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T12:21:51+00:00</ns3:endedAtTime>
+    <ns3:qualifiedAssociation rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/association"/>
+    <ns3:qualifiedUsage rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/usages/33a114c04fff4995a406442f8964eb71"/>
+    <ns3:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T12:21:51+00:00</ns3:startedAtTime>
+    <ns3:wasAssociatedWith rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns3:wasAssociatedWith rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/62bc5229391445bb8142c50db2c49b1c"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/c76e72a152894e3fb4af776de9cc38fe"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/096013f09d77473ba3478dcbc1050698"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/cd14e2d362154319aa2b47036dbb410e"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/f794495ea1ae4eef86b154f70c7733a6"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/31499e716647449d8c6d25131aabef90"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/7dea9fdfc540406bb7a67cff6d9e0609"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/5b613a0072b244c3bdf1ab48af0fb9b5"/>
+    <ns2:parameter rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/0fac33d615324d008067aa35be935666"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/2b0dca846bf0476ebe463deb07c91bb1">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:17+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d/data/cellbench/feature_cellbench.json"/>
+    <ns3:invalidatedAtTime>2021-05-27T06:18:13+00:00</ns3:invalidatedAtTime>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/feature_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/9f677a0474044dd3878308a657912787">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-04-23T11:53:12+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d/data/cellbench/feature_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/feature_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/65e679a981af0acc07f249f17d6dcf8d13532647/data/cellbench/meta_cellbench.json">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>data/cellbench/meta_cellbench.json</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/2b14c115d425442aa04cc29efcf09537"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/c414046981f549db9082ac1619d39093"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/a76e72280fa24e1ca6711a2353f8f74a"/>
+    <ns2:checksum>65e679a981af0acc07f249f17d6dcf8d13532647</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/cc617bd27cd84e27a6daeb78b5ac4f6a">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>data/cellbench/meta_cellbench.json</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-7c14</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:createFolder>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/7258312ba77044a8b9733d76d9fd153f">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:37:54+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/d21b3289f2fa4e318db948ac65565d0e"/>
+    <ns1:identifier>7258312ba77044a8b9733d76d9fd153f</ns1:identifier>
+    <ns1:keywords> omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/13d785a09c484ffe88be53daacbca600"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/3f50f9ca73c7fcaa8900e75894e24fb670568a6e/src/cellbench.R">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>src/cellbench.R</ns3:atLocation>
+    <ns2:checksum>3f50f9ca73c7fcaa8900e75894e24fb670568a6e</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/94638c493af44b5e8bc09b2351f6a8c2">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T18:10:57+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/d21b3289f2fa4e318db948ac65565d0e"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/fc09d05c04b94ff1a4802fcdb4f7c8bb"/>
+    <ns1:identifier>94638c493af44b5e8bc09b2351f6a8c2</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/e39acf086711422a8e849493ff6bae7e"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/f8c84f93625441a8a6e473456efe58b4">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-25T12:22:04+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/b4f48cd429e64611a0483f0007c60faa"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9f677a0474044dd3878308a657912787"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/f62958cb11364532bdc572d10f4f13ab"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1"/>
+    <ns1:identifier>f8c84f93625441a8a6e473456efe58b4</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/5a4cb894713641868c96f261e1323fdb"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/a142ba5b51f2438aa41144534856a7f5">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-04-23T11:53:06+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/d569506628371b141999d3dd38f6f6074065bb77/data/cellbench/data_info_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/data_info_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/994e899ef2c34a3fb6f846a5eb11477b">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-04-23T11:53:00+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/5c1922fe368940ea91c27f6721533621"/>
+    <ns1:identifier>994e899ef2c34a3fb6f846a5eb11477b</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/bbc6d80a833d4b0198af94088f5733c9"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/6d13e2e63d4d4facbee021362fdb505a">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-restore</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/inputs/4">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandInput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>src/cellbench.R</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>input-4</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns3:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-19T20:34:50+00:00</ns3:endedAtTime>
+    <ns3:qualifiedAssociation rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/association"/>
+    <ns3:qualifiedUsage rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/usages/aa35ecb01cbd413ab0eefae41dc7ceaa"/>
+    <ns3:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-19T20:34:05+00:00</ns3:startedAtTime>
+    <ns3:wasAssociatedWith rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v1.0.2"/>
+    <ns3:wasAssociatedWith rdf:resource="mailto:anthony.sonrel@uzh.ch"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/f71cdaab9d5a4f3fbe5fd53b10521323"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/b30fc8d8d0e14e0eb62ee8f83ff87295"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/a0c7f4b5e5a24c9d9b4254f55d34c998"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/82d47cfd8e864b8cbaf53b8cc0cc6988"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/cf4dafbe06834fd287ecf00dfb930df1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/1">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>--no-restore</ns1:defaultValue>
+    <ns1:name>parameter-1</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/085417bd276d3b95ee81742c6a5697aec7783672/log/generate_cellbench.Rout">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>log/generate_cellbench.Rout</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/97473651165b4d1c89475acd7184f7ee"/>
+    <ns2:checksum>085417bd276d3b95ee81742c6a5697aec7783672</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/0fac33d615324d008067aa35be935666">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>"data/cellbench"</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/projects/omnibenchmark/omni_data/cellbench">
+    <ns2:hasActivity rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56"/>
+    <ns2:hasActivity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+    <ns2:hasActivity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+    <ns2:hasActivity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+    <ns2:hasPlan rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0"/>
+    <ns2:hasPlan rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7"/>
+    <rdf:type rdf:resource="http://schema.org/Project"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Location"/>
+    <ns1:agent>1.0.2</ns1:agent>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-02-18T12:50:43+00:00</ns1:dateCreated>
+    <ns1:name>cellbench</ns1:name>
+    <ns1:schemaVersion>9</ns1:schemaVersion>
+    <ns2:automatedTemplateUpdate rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:automatedTemplateUpdate>
+    <ns2:templateId>R-minimal</ns2:templateId>
+    <ns2:templateMetadata>{"__template_source__": "https://github.com/SwissDataScienceCenter/renku-project-template", "__template_ref__": "0.1.16", "__template_id__": "R-minimal", "__namespace__": "omnibenchmark/omni_data", "__automated_update__": true, "__repository__": "https://renkulab.io/gitlab", "__sanitized_project_name__": "cellbench", "__project_slug__": "omnibenchmark/omni_data/cellbench", "description": "A standardized dataset to run omnibenchmark", "name": "cellbench"}</ns2:templateMetadata>
+    <ns2:templateReference>0.1.16</ns2:templateReference>
+    <ns2:templateSource>https://github.com/SwissDataScienceCenter/renku-project-template</ns2:templateSource>
+    <ns2:templateVersion>11c74ad062891b24b5873d3036eff032eebc973a</ns2:templateVersion>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/94638c493af44b5e8bc09b2351f6a8c2"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/e39acf086711422a8e849493ff6bae7e"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/c3ff9a97ab8f4d30891e9def77917e13"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/7258312ba77044a8b9733d76d9fd153f"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/13d785a09c484ffe88be53daacbca600"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/fff56c20d72143ba8f9e6a4c6bd7f681"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/670155318054416e9682af0cc04abc05"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/8f68bfda0ab74ff6a99886f74f5f2102"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/1dd05daa68da45ab8a807c2336ae0c98"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/04163276aead4529b2c23555ba1c5114"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/c30d2bcaef30432d80e7b02246fd51f4"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/f8c84f93625441a8a6e473456efe58b4"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/5a4cb894713641868c96f261e1323fdb"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/b7014a85fd0a43cba41c587342dcd298"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/4f00f3b90d5d4c73a4550943fae09a67"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/994e899ef2c34a3fb6f846a5eb11477b"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/bbc6d80a833d4b0198af94088f5733c9"/>
+    <ns2:hasDataset rdf:resource="https://renkulab.io/datasets/94a0598e16d648349abc3a5b71d84271"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/53ded8bff5a446c18c7a12850d0e92d8">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>data/cellbench/feature_cellbench.json</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-4650</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:createFolder>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/49edadcacbe848f98fcfef2b7c0e8125">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/fc09d05c04b94ff1a4802fcdb4f7c8bb">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-27T06:38:01+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/65e679a981af0acc07f249f17d6dcf8d13532647/data/cellbench/meta_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/meta_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/fff56c20d72143ba8f9e6a4c6bd7f681">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:37:41+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:identifier>fff56c20d72143ba8f9e6a4c6bd7f681</ns1:identifier>
+    <ns1:keywords> omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/670155318054416e9682af0cc04abc05"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <ns3:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T09:16:53+00:00</ns3:endedAtTime>
+    <ns3:qualifiedAssociation rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/association"/>
+    <ns3:qualifiedUsage rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/4670be97c9eb4e7ea0a7336bdae137c8"/>
+    <ns3:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T09:16:07+00:00</ns3:startedAtTime>
+    <ns3:wasAssociatedWith rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v1.1.0"/>
+    <ns3:wasAssociatedWith rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/607023adb20849c5802bf4178eaf0d07"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/fae8d15fb0de47209efd2c4c2627a7b0"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/8c801d5c1ce2411d9d6bd0aad9ccc5ca"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/0c74133a0964420ca8f3af42037d9447"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/acc7a958f30c4adfbb8e0d134debfcdb"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/5671a48b6b7445cfa24bf5e02c93b223"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/249f22f231d74c2fbda60c8a51402bdd"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/a8e88b25fe084df6a78c93b847f343fa"/>
+    <ns2:parameter rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/3636fe1a19f34757bae4cf0a91261ee6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/5a4cb894713641868c96f261e1323fdb">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-04-23T11:53:18+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/5c1922fe368940ea91c27f6721533621"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/a142ba5b51f2438aa41144534856a7f5"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9f677a0474044dd3878308a657912787"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/f62958cb11364532bdc572d10f4f13ab"/>
+    <ns1:identifier>5a4cb894713641868c96f261e1323fdb</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/b7014a85fd0a43cba41c587342dcd298"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/62bc5229391445bb8142c50db2c49b1c">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>src/cellbench.R</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/inputs/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/c72ef07a8d92435cb417e94352a0913c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/d3490390cbcf48259a11ad0ca3a8e6ed">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:04+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/2284df3a2c4efff5a5e6341da95dba98c13ff361/data/cellbench/counts_cellbench.mtx.gz"/>
+    <ns3:invalidatedAtTime>2021-05-27T06:18:13+00:00</ns3:invalidatedAtTime>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/counts_cellbench.mtx.gz</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0">
+    <rdf:type rdf:resource="http://schema.org/Action"/>
+    <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+    <ns1:dateCreated>2022-01-19T20:34:51+00:00</ns1:dateCreated>
+    <ns1:name>cellbench</ns1:name>
+    <ns2:command>R CMD BATCH</ns2:command>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/1"/>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/2"/>
+    <ns2:hasArguments rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/3"/>
+    <ns2:hasInputs rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/inputs/4"/>
+    <ns2:hasOutputs rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-27T06:37:41+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/2284df3a2c4efff5a5e6341da95dba98c13ff361/data/cellbench/counts_cellbench.mtx.gz"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/counts_cellbench.mtx.gz</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/e43b2bafa351414caa196a20ff1b6441">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:23+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/65e679a981af0acc07f249f17d6dcf8d13532647/data/cellbench/meta_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/meta_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/13d785a09c484ffe88be53daacbca600">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:37:47+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c"/>
+    <ns1:identifier>13d785a09c484ffe88be53daacbca600</ns1:identifier>
+    <ns1:keywords> omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/fff56c20d72143ba8f9e6a4c6bd7f681"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/c30d2bcaef30432d80e7b02246fd51f4">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-25T12:22:10+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9f677a0474044dd3878308a657912787"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/f62958cb11364532bdc572d10f4f13ab"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9bedcee833334a6696fa8d0c966f162a"/>
+    <ns1:identifier>c30d2bcaef30432d80e7b02246fd51f4</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/f8c84f93625441a8a6e473456efe58b4"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/2">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>--no-save</ns1:defaultValue>
+    <ns1:name>param-2</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/b4f48cd429e64611a0483f0007c60faa">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-04-23T11:53:06+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/45f56666e1ecef64d3cc87c05b703c3904a87adf/data/cellbench/data_info_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/data_info_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/77291f0ba3098f8920c9ad89a449c17153baabdf/log/generate_cellbench.Rout">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>log/generate_cellbench.Rout</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/usages/efa9085195444568b0f26adfa09bfd86"/>
+    <ns2:checksum>77291f0ba3098f8920c9ad89a449c17153baabdf</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/c9f61a31a9b14951adf7ec31a5fb4b78">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:23+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/65e679a981af0acc07f249f17d6dcf8d13532647/data/cellbench/meta_cellbench.json"/>
+    <ns3:invalidatedAtTime>2021-05-27T06:18:13+00:00</ns3:invalidatedAtTime>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/meta_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/370de9dfd253b4537c33aadf35a8c0704ad2dd76/log/generate_cellbench.Rout">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>log/generate_cellbench.Rout</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/c2939155f0c645d39d77e06c4ce4c40c"/>
+    <ns2:checksum>370de9dfd253b4537c33aadf35a8c0704ad2dd76</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/e39acf086711422a8e849493ff6bae7e">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T07:19:58+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/0fcca6f52f514aa29b9effc5ea29953d"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/d21b3289f2fa4e318db948ac65565d0e"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/fc09d05c04b94ff1a4802fcdb4f7c8bb"/>
+    <ns1:identifier>e39acf086711422a8e849493ff6bae7e</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/c3ff9a97ab8f4d30891e9def77917e13"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/a2744461bbd94eb99ef7b7b1d84b734f">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>data/cellbench/data_info_cellbench.json</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-68f5</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:createFolder>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/670155318054416e9682af0cc04abc05">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-27T06:18:12+00:00</ns1:dateCreated>
+    <ns1:description> Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/d3490390cbcf48259a11ad0ca3a8e6ed"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/2a7425f1b3c449ec8166cb213546d127"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/2b0dca846bf0476ebe463deb07c91bb1"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/c9f61a31a9b14951adf7ec31a5fb4b78"/>
+    <ns1:identifier>670155318054416e9682af0cc04abc05</ns1:identifier>
+    <ns1:keywords> omni_batch</ns1:keywords>
+    <ns1:name> Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/8f68bfda0ab74ff6a99886f74f5f2102"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/04163276aead4529b2c23555ba1c5114">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-25T12:22:17+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/f62958cb11364532bdc572d10f4f13ab"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9bedcee833334a6696fa8d0c966f162a"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/b6be1765b8f1452ea8e54cce68708b36"/>
+    <ns1:identifier>04163276aead4529b2c23555ba1c5114</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/c30d2bcaef30432d80e7b02246fd51f4"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/bbc6d80a833d4b0198af94088f5733c9">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/bbc6d80a833d4b0198af94088f5733c9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/9f3168f9ef9f4364a472f63a17debd03">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>src/cellbench.R</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/inputs/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/4670be97c9eb4e7ea0a7336bdae137c8">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/19ab67d798cd9e70c89b7c3138c374233f2b36aa/src/cellbench.R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:anthony.sonrel@uzh.ch">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    <ns1:email>anthony.sonrel@uzh.ch</ns1:email>
+    <ns1:name>Anthony Sonrel</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/c414046981f549db9082ac1619d39093">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/94a0598e16d648349abc3a5b71d84271">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-02-18T14:00:15+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:identifier>94a0598e16d648349abc3a5b71d84271</ns1:identifier>
+    <ns1:name>Standardized CellBench dataset</ns1:name>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/2a324eaf0db0488599a994000fedc6a8">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/meta_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/cc617bd27cd84e27a6daeb78b5ac4f6a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/datasets/1dd05daa68da45ab8a807c2336ae0c98">
+    <rdf:type rdf:resource="http://schema.org/Dataset"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:creator rdf:resource="mailto:almut.lue@gmail.com"/>
+    <ns1:dateCreated>2021-05-25T12:22:23+00:00</ns1:dateCreated>
+    <ns1:description>Standardized data from the Bioconductor CellBench package to benchmark scRNA-seq tools using omnibenchmark.</ns1:description>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/9bedcee833334a6696fa8d0c966f162a"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/b6be1765b8f1452ea8e54cce68708b36"/>
+    <ns1:hasPart rdf:resource="https://renkulab.io/dataset-files/e43b2bafa351414caa196a20ff1b6441"/>
+    <ns1:identifier>1dd05daa68da45ab8a807c2336ae0c98</ns1:identifier>
+    <ns1:keywords>omni_batch</ns1:keywords>
+    <ns1:name>Standardized CellBench dataset - omni_batch</ns1:name>
+    <ns3:wasDerivedFrom rdf:resource="https://renkulab.io/urls/datasets/04163276aead4529b2c23555ba1c5114"/>
+    <ns2:originalIdentifier>94a0598e16d648349abc3a5b71d84271</ns2:originalIdentifier>
+    <ns2:slug>cellbench</ns2:slug>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/acc7a958f30c4adfbb8e0d134debfcdb">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/data_info_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/a2744461bbd94eb99ef7b7b1d84b734f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/5ca06bcac0f14b0a8b95fae4e9399ee9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/2a7425f1b3c449ec8166cb213546d127">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:10+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/45f56666e1ecef64d3cc87c05b703c3904a87adf/data/cellbench/data_info_cellbench.json"/>
+    <ns3:invalidatedAtTime>2021-05-27T06:18:13+00:00</ns3:invalidatedAtTime>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/data_info_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/usages/95a80b8cc9a74c069e32a5c94eab9e0a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/f08553796a1f9ce3e11cb17dd2f00351aacd25ff/src/cellbench.R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/association">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    <ns3:agent rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1"/>
+    <ns3:hadPlan rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/inputs/4">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandInput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>src/cellbench.R</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>input-4</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/984f5d3c10384657a5765c761190159a">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-save</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/swissdatasciencecenter/renku-python/tree/v1.1.0">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <ns1:name>renku 1.1.0</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/5671a48b6b7445cfa24bf5e02c93b223">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>log/generate_cellbench.Rout</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/c9b1e06fa574477983ec85d42601d04c">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-27T06:37:47+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/45f56666e1ecef64d3cc87c05b703c3904a87adf/data/cellbench/data_info_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/data_info_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/c01f86b4c53c47209162ad926ceef8cb">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/c76e72a152894e3fb4af776de9cc38fe">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/counts_cellbench.mtx.gz</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/1eef96c0900c46c4be57a9ba5245a231"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/3">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>"data/cellbench"</ns1:defaultValue>
+    <ns1:name>args_out_path-3</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:position>
+    <ns2:prefix>--args out_path=</ns2:prefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/association">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    <ns3:agent rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v1.0.2"/>
+    <ns3:hadPlan rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/670155318054416e9682af0cc04abc05">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/670155318054416e9682af0cc04abc05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/8f68bfda0ab74ff6a99886f74f5f2102">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/8f68bfda0ab74ff6a99886f74f5f2102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="mailto:almut.lue@gmail.com">
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    <ns1:email>almut.lue@gmail.com</ns1:email>
+    <ns1:name>Almut Luetge</ns1:name>
+    <ns1:name>almutlue</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/096013f09d77473ba3478dcbc1050698">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>log/generate_cellbench.Rout</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/994e899ef2c34a3fb6f846a5eb11477b">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/994e899ef2c34a3fb6f846a5eb11477b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/94a0598e16d648349abc3a5b71d84271">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/94a0598e16d648349abc3a5b71d84271"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/2">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>--no-save</ns1:defaultValue>
+    <ns1:name>parameter-2</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/607023adb20849c5802bf4178eaf0d07">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>src/cellbench.R</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/inputs/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/171107fa41fd0fec260fcace2fd484bf30442c82/log/generate_cellbench.Rout">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>log/generate_cellbench.Rout</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/9c01730ff3cf47809b08176021dd5644"/>
+    <ns2:checksum>171107fa41fd0fec260fcace2fd484bf30442c82</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/5c1922fe368940ea91c27f6721533621">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-04-23T11:53:00+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/2284df3a2c4efff5a5e6341da95dba98c13ff361/data/cellbench/counts_cellbench.mtx.gz"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/counts_cellbench.mtx.gz</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/4f00f3b90d5d4c73a4550943fae09a67">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/4f00f3b90d5d4c73a4550943fae09a67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/a8e88b25fe084df6a78c93b847f343fa">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-save</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/82d47cfd8e864b8cbaf53b8cc0cc6988">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-save</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/c30d2bcaef30432d80e7b02246fd51f4">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/c30d2bcaef30432d80e7b02246fd51f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/8c801d5c1ce2411d9d6bd0aad9ccc5ca">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/counts_cellbench.mtx.gz</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/1eef96c0900c46c4be57a9ba5245a231"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/b6be1765b8f1452ea8e54cce68708b36">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:17+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d/data/cellbench/feature_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/feature_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/c2939155f0c645d39d77e06c4ce4c40c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d/data/cellbench/feature_cellbench.json">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>data/cellbench/feature_cellbench.json</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/d0f1392b13494955947061c2f9a8dfe9"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/5ca06bcac0f14b0a8b95fae4e9399ee9"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/f88fd78f69d24169aac232ff91178f4b"/>
+    <ns2:checksum>1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/3">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>"data/cellbench"</ns1:defaultValue>
+    <ns1:name>args_out_path-3</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns2:position>
+    <ns2:prefix>--args out_path=</ns2:prefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/d21b3289f2fa4e318db948ac65565d0e">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-27T06:37:54+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/1e651b1d4b4cd4dd936ebb48c220ea67c9e8db8d/data/cellbench/feature_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/feature_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/a76e72280fa24e1ca6711a2353f8f74a">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/19ab67d798cd9e70c89b7c3138c374233f2b36aa/src/cellbench.R">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>src/cellbench.R</ns3:atLocation>
+    <ns2:checksum>19ab67d798cd9e70c89b7c3138c374233f2b36aa</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/cf4dafbe06834fd287ecf00dfb930df1">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>"data/cellbench"</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/a0c7f4b5e5a24c9d9b4254f55d34c998">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-restore</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/parameters/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/276c19682b4c41a4a943e373a79209e1">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:04+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/2284df3a2c4efff5a5e6341da95dba98c13ff361/data/cellbench/counts_cellbench.mtx.gz"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/counts_cellbench.mtx.gz</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/fae8d15fb0de47209efd2c4c2627a7b0">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/feature_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/53ded8bff5a446c18c7a12850d0e92d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/parameter-value/b30fc8d8d0e14e0eb62ee8f83ff87295">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>log/generate_cellbench.Rout</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/aa91c6bef0d541538e8b713a6aeaa4e0/outputs/5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/1eef96c0900c46c4be57a9ba5245a231">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>data/cellbench/counts_cellbench.mtx.gz</ns1:defaultValue>
+    <ns1:encodingFormat>application/octet-stream</ns1:encodingFormat>
+    <ns1:name>output-4fad</ns1:name>
+    <ns2:createFolder rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:createFolder>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/65c4c30792ce40e8b5e0f2c56a1564f0">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/counts_cellbench.mtx.gz</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/1eef96c0900c46c4be57a9ba5245a231"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/5b613a0072b244c3bdf1ab48af0fb9b5">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-save</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/f8c84f93625441a8a6e473456efe58b4">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/f8c84f93625441a8a6e473456efe58b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/parameter-value/3636fe1a19f34757bae4cf0a91261ee6">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>"data/cellbench"</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/association">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    <ns3:agent rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v0.14.2"/>
+    <ns3:hadPlan rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/2284df3a2c4efff5a5e6341da95dba98c13ff361/data/cellbench/counts_cellbench.mtx.gz">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>data/cellbench/counts_cellbench.mtx.gz</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/412d15f174b249069771bde44a07fa03"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/84eb67362bc745fea0af15c56127d5e8"/>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/c01f86b4c53c47209162ad926ceef8cb"/>
+    <ns2:checksum>2284df3a2c4efff5a5e6341da95dba98c13ff361</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/5142e28e29c34a6799ecadc143c05465">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/feature_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/53ded8bff5a446c18c7a12850d0e92d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/9bedcee833334a6696fa8d0c966f162a">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-05-25T12:22:10+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/45f56666e1ecef64d3cc87c05b703c3904a87adf/data/cellbench/data_info_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/data_info_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/b7014a85fd0a43cba41c587342dcd298">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/b7014a85fd0a43cba41c587342dcd298"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/d0f1392b13494955947061c2f9a8dfe9">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/1dd05daa68da45ab8a807c2336ae0c98">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/1dd05daa68da45ab8a807c2336ae0c98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/dataset-files/f62958cb11364532bdc572d10f4f13ab">
+    <rdf:type rdf:resource="http://schema.org/DigitalDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:dateCreated>2021-04-23T11:53:18+00:00</ns1:dateCreated>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/65e679a981af0acc07f249f17d6dcf8d13532647/data/cellbench/meta_cellbench.json"/>
+    <ns2:external rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ns2:external>
+    <ns2:source>data/cellbench/meta_cellbench.json</ns2:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/usages/33a114c04fff4995a406442f8964eb71">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/3f50f9ca73c7fcaa8900e75894e24fb670568a6e/src/cellbench.R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/9c01730ff3cf47809b08176021dd5644">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/2b14c115d425442aa04cc29efcf09537">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/f794495ea1ae4eef86b154f70c7733a6">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/data_info_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/a2744461bbd94eb99ef7b7b1d84b734f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/7dea9fdfc540406bb7a67cff6d9e0609">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>--no-restore</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/b092e86cee694fec9e043c9b27950d1c">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/parameter-value/4eb11d532e0542b6bee29b003fcddb6c">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/data_info_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/a2744461bbd94eb99ef7b7b1d84b734f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/5a4cb894713641868c96f261e1323fdb">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/5a4cb894713641868c96f261e1323fdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/d569506628371b141999d3dd38f6f6074065bb77/data/cellbench/data_info_cellbench.json">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>data/cellbench/data_info_cellbench.json</ns3:atLocation>
+    <ns3:qualifiedGeneration rdf:resource="https://renkulab.io08571b85204e8338709a26356e060b85794fafad/generations/b092e86cee694fec9e043c9b27950d1c"/>
+    <ns2:checksum>d569506628371b141999d3dd38f6f6074065bb77</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/generations/f88fd78f69d24169aac232ff91178f4b">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.ioc345c939fbf61eaaf90be252bbf535b32cb3c876/parameter-value/cd14e2d362154319aa2b47036dbb410e">
+    <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#ParameterValue"/>
+    <ns1:value>data/cellbench/feature_cellbench.json</ns1:value>
+    <ns1:valueReference rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/outputs/53ded8bff5a446c18c7a12850d0e92d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7/parameters/1">
+    <rdf:type rdf:resource="http://schema.org/Property"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter"/>
+    <rdf:type rdf:resource="https://swissdatasciencecenter.github.io/renku-ontology#CommandParameterBase"/>
+    <ns1:defaultValue>--no-restore</ns1:defaultValue>
+    <ns1:name>param-1</ns1:name>
+    <ns2:position rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns2:position>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/entities/f08553796a1f9ce3e11cb17dd2f00351aacd25ff/src/cellbench.R">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:atLocation>src/cellbench.R</ns3:atLocation>
+    <ns2:checksum>f08553796a1f9ce3e11cb17dd2f00351aacd25ff</ns2:checksum>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/7258312ba77044a8b9733d76d9fd153f">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/7258312ba77044a8b9733d76d9fd153f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/c3ff9a97ab8f4d30891e9def77917e13">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/c3ff9a97ab8f4d30891e9def77917e13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/412d15f174b249069771bde44a07fa03">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <ns1:name>renku 0.15.1</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/e39acf086711422a8e849493ff6bae7e">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/e39acf086711422a8e849493ff6bae7e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/usages/97473651165b4d1c89475acd7184f7ee">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/13d785a09c484ffe88be53daacbca600">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/13d785a09c484ffe88be53daacbca600"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/fff56c20d72143ba8f9e6a4c6bd7f681">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/fff56c20d72143ba8f9e6a4c6bd7f681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/swissdatasciencecenter/renku-python/tree/v1.0.2">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    <ns1:name>renku 1.0.2</ns1:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/urls/datasets/04163276aead4529b2c23555ba1c5114">
+    <rdf:type rdf:resource="http://schema.org/URL"/>
+    <ns1:url rdf:resource="https://renkulab.io/datasets/04163276aead4529b2c23555ba1c5114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/60dfcb1f58964222bfc1eecca3716322/association">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    <ns3:agent rdf:resource="https://github.com/swissdatasciencecenter/renku-python/tree/v1.1.0"/>
+    <ns3:hadPlan rdf:resource="https://renkulab.io/plans/b0e6485a-3b3c-4a42-a208-76774194b2e7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/usages/aa35ecb01cbd413ab0eefae41dc7ceaa">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+    <ns3:entity rdf:resource="https://renkulab.io/entities/3f50f9ca73c7fcaa8900e75894e24fb670568a6e/src/cellbench.R"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56/usages/efa9085195444568b0f26adfa09bfd86">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+    <ns3:activity rdf:resource="https://renkulab.io/activities/3e9e93d1522d4d0386b1ab66a0762f56"/>
+  </rdf:Description>
+</rdf:RDF>

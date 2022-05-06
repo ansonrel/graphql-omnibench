@@ -1,0 +1,10 @@
+# Get all triples linked to a file
+PREFIX ns1:<http://www.w3.org/ns/prov#>
+PREFIX ns2:<https://swissdatasciencecenter.github.io/renku-ontology#>
+PREFIX ns3:<http://schema.org/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT *
+WHERE {
+          ?s ?p ?o .
+  FILTER (regex(?o, "process_cellbench.Rout", "i"))
+      } 

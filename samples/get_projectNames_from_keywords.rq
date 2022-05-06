@@ -1,0 +1,11 @@
+# Get all project names from a keyword
+PREFIX ns1:<http://www.w3.org/ns/prov#>
+PREFIX ns2:<https://swissdatasciencecenter.github.io/renku-ontology#>
+PREFIX ns3:<http://schema.org/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?comm
+WHERE {
+  ?x ns3:keywords "omni_batch" .
+        ?x ns2:slug ?name .
+      } 

@@ -1,0 +1,13 @@
+# Shows all files (here JSON files) used as input in any project 
+PREFIX ns1:<http://www.w3.org/ns/prov#>
+PREFIX ns2:<https://swissdatasciencecenter.github.io/renku-ontology#>
+PREFIX ns3:<http://schema.org/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?o ?ID
+WHERE {
+  ?s ?p ?o .
+  FILTER (regex(?o, ".json", "i"))
+  FILTER (regex(?ID, "input-", "i"))
+  ?s ns3:name ?ID .
+      } 
